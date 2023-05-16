@@ -48,7 +48,7 @@ const productos = [
 // Calcular la ganancia de vender 3 productos de cada uno, solo de los que tienen sold === true, la ganancia por venta es del 30%
 
 let gananciaTotal = 0;
-
+// Consulto si el producto tiene sold=true para calcular
 for (const producto of productos) {
 	if (producto.sold) {
 		const precio = producto.precio;
